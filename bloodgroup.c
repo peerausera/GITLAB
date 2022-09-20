@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 void main()
 { char Name[40], G[3], answer[5];
   int i;
@@ -45,5 +46,4 @@ void main()
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
-  printf("hello world");
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <time.h>
 void main()
 { char Name[40], G[3], answer[5];
   int i;
@@ -46,3 +47,5 @@ void main()
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
 }
+
+

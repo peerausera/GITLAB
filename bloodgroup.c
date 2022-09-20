@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 void main()
-{ char Name[40], G[5], answer[10];
+{ char Name[40], G[3], answer[5];
   int i;
   do
   {
@@ -41,7 +41,7 @@ void main()
       printf("%s, O. Nice! You can give blood to all: O, A, B, AB\n", Name);
       printf("  But Sad! You can receive blood only from: O\n");
     }
-    printf("\nContinue (YES for Yes)? ");
+    printf("\nContinue (YES for Yes , NO for No)? ");
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");

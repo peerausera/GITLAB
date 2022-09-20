@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <time.h>
+#include <math.h>
 void main()
 { char Name[40], G[3], answer[5];
   int i;
